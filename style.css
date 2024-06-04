@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
 }
 
 :root{
-    --bg-color:#f4f6fa
-    --white: #fff
-    --purple: #a729f5
-    --bg-mobile: url(./assets/images/pattern-background-mobile-lhigt.svg)
+    --bg-color:#f4f6fa;
+    --white: #fff;
+    --primary-text-color: #313e51;
+    --purple: #a729f5;
+    --bg-mobile: url(./assets/images/pattern-background-mobile-lhigt.svg);
 }
 
 body{
@@ -36,7 +38,7 @@ header{
 }
 
 
-.tema{
+.tema button{
     height: 20px;
     width: 32px;
     background: var(--purple);
@@ -49,4 +51,14 @@ header{
     width: 12px;
     height: 12px;
     border-radius: 999px;
+}
+
+main{
+    padding: 32px 24px;
+}
+
+main h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--primary-text-color);
 }
