@@ -101,20 +101,32 @@ main{
     padding: 12px;
     border-radius: 12px;
     box-shadow: var(--shadow);
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+.assuntos button div{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
-.botao_html{
+.assuntos button img{
+    width: 100%;
+}
+
+.botao_html div{
     background: var(--bg-html);
 }
 
-.botao_css{
+.botao_css div{
     background: var(--bg-css);
 }
 
-.botao_javascript{
+.botao_javascript div{
     background: var(--bg-javascript);
 }
 
-.botao_acessibilidade{
+.botao_acessibilidade div{
     background: var(--bg-acessibilidade);
 }
