@@ -14,8 +14,6 @@
     --primary-text-color: #313e51;
     --secondary-text-color: #626c7f;
     --white: #fff;
-    --green: #26d782;
-    --red: #ee5454;
     --shadow: 0px 16px 40px 0px rgba(143, 168, 163, 0.14);
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
@@ -124,6 +122,7 @@ main h2 strong{
     gap: 16px;
     border-radius: 12px;
     margin-bottom: 12px;
+    box-shadow: var(--shadow);
 }
 
 .pontucao strong{
@@ -148,6 +147,7 @@ main button{
     font-size: 18px;
     font-weight: 500;
     transition: background 0.7s;
+    box-shadow: var(--shadow);
 }
 
 main button:hover{
