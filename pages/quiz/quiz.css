@@ -58,10 +58,21 @@ header{
 }
 
 .assunto_icone{
-    background: var(--bg-acessibilidade);
     width: 40px;
     height: 40px;
     padding: 5px;
+}
+.assunto_icone.html{
+    background: var(--bg-html);
+}
+.assunto_icone.css{
+    background: var(--bg-css);
+}
+.assunto_icone.javascript{
+    background: var(--bg-javascript);
+}
+.assunto_icone.acessibilidade{
+    background: var(--bg-acessibilidade);
 }
 .assunto_icone img{
     width: 100%;
@@ -136,7 +147,6 @@ main{
 
 .barra_progresso div{
     height: 100%;
-    width: 60%;
     border-radius: 999px;
     background: var(--purple);
 }
